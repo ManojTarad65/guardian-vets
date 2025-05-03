@@ -4,7 +4,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="bg-[#f4e4d4] h-screen w-screen text-black ">
-      <div className="flex gap-x-22 justify-center m-20 items-center p-15">
+      <div className="flex gap-x-22 justify-center  items-center p-15">
         <div
           className="pic  w-[38vw] h-[64vh]   m-8"
         >
@@ -108,3 +108,41 @@ const Home = () => {
 };
 
 export default Home;
+
+// import React from "react";
+
+// const Home = () => {
+//   return (
+//     <div className="bg-[#f4e4d4] min-h-screen w-full text-black">
+//       <div className="flex flex-col md:flex-row justify-center items-center px-4 py-6 sm:px-6 md:px-10 lg:px-20 gap-6 md:gap-10">
+//         {/* Image Section */}
+//         <div className="w-full sm:w-[80%] md:w-[50%] lg:w-[38vw] h-[40vh] sm:h-[45vh] md:h-[50vh] lg:h-[64vh]">
+//           <img
+//             src="/home.jpg"
+//             alt="Home"
+//             className="w-full h-full object-cover rounded-3xl"
+//           />
+//         </div>
+
+//         {/* Text + SVG Section */}
+//         <div className="w-full sm:w-[90%] md:w-[45%] lg:w-1/3 flex flex-col items-center md:items-start">
+//           <svg
+//             preserveAspectRatio="xMidYMid meet"
+//             data-bbox="0.005 0 369.982 280.741"
+//             xmlns="http://www.w3.org/2000/svg"
+//             viewBox="0.005 0 369.982 280.741"
+//             className="w-full max-w-[250px] sm:max-w-[300px] md:max-w-[370px]"
+//             data-type="color"
+//             role="img"
+//             aria-label="Layer 1"
+//           >
+//             {/* SVG Paths... (unchanged) */}
+//           </svg>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Home;
+
